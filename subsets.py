@@ -1,9 +1,12 @@
+# Problem: Subsets
+# Approach: Iterative subset expansion
+# Time: O(n * 2^n)
+
 class Solution:
-    def subsets(self, nums: List[int]) -> List[List[int]]:
-        outer=[[]]
+    def subsets(self, nums):
+        outer = [[]]
         for num in nums:
-            n=len(outer)
+            n = len(outer)
             for i in range(n):
-                inner=outer[i]+[num]
-                outer.append(inner)
+                outer.append(outer[i] + [num])
         return outer
