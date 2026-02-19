@@ -13,7 +13,8 @@ This repository contains my daily Data Structures and Algorithms practice soluti
 - Hash Maps
 - Sliding Window
 - Recursion
-- Trees (upcoming)
+- Valid Anagram (Sorting approach)
+- Subsets (Iterative expansion method)
 
 ## Structure
 Each file contains:
@@ -26,5 +27,10 @@ Each file contains:
 - Longest Substring Without Repeating Characters
 - Roman to Integer
 - Longest Common Prefix
+- String manipulation
+- Sorting complexity
+- Power set generation
+- Iterative subset building
+
 
 I update this repository regularly as I solve new problems.
